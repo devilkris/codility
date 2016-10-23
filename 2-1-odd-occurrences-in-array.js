@@ -5,7 +5,7 @@
 /**
  * Finds the element that occurs an odd number of times in an array.
  *
- * Time : O(n)
+ * Time : O(N)
  * Space: O(1)
  *
  * @param {!Array<number>} a

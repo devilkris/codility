@@ -5,7 +5,7 @@
 /**
  * Counts the number of passing cars.
  *
- * Time : O(n)
+ * Time : O(N)
  * Space: O(1)
  *
  * @param {!Array<number>} a Size is [1..1e5].

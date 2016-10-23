@@ -5,8 +5,8 @@
 /**
  * Determines whether any valid triangle can be builty from a set of edges.
  *
- * Time : O(n(log(n)))
- * Space: O(n)
+ * Time : O(N(log(N)))
+ * Space: O(N)
  *
  * @param {!Array<number>} a
  * @return {number} 1 if so, 0 otherwise.

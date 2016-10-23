@@ -1,9 +1,11 @@
+// https://codility.com/programmers/lessons/14-binary_search_algorithm/min_max_division/
+
 'use strict';
 
 /**
  * Divides an array into blocks while minimizing the largest sum of any block.
  *
- * Time : O(n(log(n + m)))
+ * Time : O(N(log(N+M)))
  * Space: O(1)
  *
  * @param {number} k Maximum number of blocks the array can be divided into.

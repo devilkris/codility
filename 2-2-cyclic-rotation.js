@@ -5,8 +5,8 @@
 /**
  * Rotates an array.
  *
- * Time : O(n)
- * Space: O(n)
+ * Time : O(N)
+ * Space: O(N)
  *
  * @param {!Array<number>} a Array to rotate.
  * @param {number} k Distance to rotate by.

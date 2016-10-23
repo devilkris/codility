@@ -5,7 +5,7 @@
 /**
  * Finds the missing element in a permutation of N integers.
  *
- * Time : O(n)
+ * Time : O(N)
  * Space: O(1)
  *
  * @param {!Array<number>} a

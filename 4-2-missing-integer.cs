@@ -7,8 +7,8 @@ class Solution {
   /**
    * Finds the minimal positive integer missing from a sequence.
    *
-   * Time : O(n)
-   * Space: O(n)
+   * Time : O(N)
+   * Space: O(N)
    *
    * @param {int[]} a
    * @return {int}

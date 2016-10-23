@@ -5,8 +5,8 @@
 /**
  * Finds the start index of the array slice with the global minimum average.
  *
- * Time : O(n)
- * Space: O(n)
+ * Time : O(N)
+ * Space: O(N)
  *
  * @param {!Array<number>} a
  * @return {number}
@@ -42,8 +42,8 @@ function solution(a) {
 /**
  * Calculates the prefix sums of an array of numbers.
  *
- * Time : O(n)
- * Space: O(n)
+ * Time : O(N)
+ * Space: O(N)
  *
  * @param {!Array<number>} a
  * @return {!Array<number>}
@@ -87,7 +87,7 @@ function averageOf(s, p, q) {
 /**
  * Determines the maximum value in an array.
  *
- * Time : O(n)
+ * Time : O(N)
  * Space: O(1)
  *
  * @param {!Array<number>} a

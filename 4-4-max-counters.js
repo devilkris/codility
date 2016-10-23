@@ -6,8 +6,8 @@
  * Calculate the values of counters after applying all alternating operations:
  * increase counter by 1; set value of all counters to current maximum.
  *
- * Time : O(n+m)
- * Space: O(n)
+ * Time : O(N+M)
+ * Space: O(N)
  *
  * @param {number} n Number of counters.
  * @param {!Array<number>} a Operations.

@@ -5,8 +5,8 @@
 /**
  * Determines whether an array is a permutation.
  *
- * Time : O(n)
- * Space: O(n)
+ * Time : O(N)
+ * Space: O(N)
  *
  * @param {!Array<number>} a
  * @return {number} 1 if true, 0 otherwise.

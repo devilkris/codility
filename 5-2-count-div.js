@@ -20,7 +20,7 @@ function solution(a, b, k) {
   } else if (a < k) {
     f = k;
   } else { // a >= k
-    let r = a % k;
+    const r = a % k;
     f = a + (r !== 0 ? r : 0);
   }
 

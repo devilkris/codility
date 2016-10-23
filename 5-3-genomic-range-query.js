@@ -5,8 +5,8 @@
 /**
  * Finds the minimal nucleotide from a range of sequence DNA.
  *
- * Time : O(n+m)
- * Space: O(n)
+ * Time : O(N+M)
+ * Space: O(N)
  *
  * @param {string} S
  * @param {!Array<number>} P

@@ -12,8 +12,8 @@ let DiscRange;
 /**
  * Computes the number of intersections in a sequence of discs.
  *
- * Time : O(n(log(n)))
- * Space: O(n)
+ * Time : O(N(log(N)))
+ * Space: O(N)
  *
  * @param {!Array<number>} a Non-negative integers specifying disc radiuses.
  * @return {number} -1 if greater than 10e6.

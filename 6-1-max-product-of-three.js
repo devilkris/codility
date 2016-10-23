@@ -5,7 +5,7 @@
 /**
  * Determines the maximum product of any three elements in an array.
  *
- * Time : O(n(log(n)))
+ * Time : O(N(log(N)))
  * Space: O(1)
  *
  * @param {!Array<number>} a

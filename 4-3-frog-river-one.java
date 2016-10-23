@@ -6,8 +6,8 @@ public class Solution {
   /**
    * Finds the earliest time a frog can jump to the other side of a river.
    *
-   * Time : O(n)
-   * Space: O(x)
+   * Time : O(N)
+   * Space: O(X)
    *
    * @param {int} x
    * @param {int[]} a

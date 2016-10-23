@@ -5,7 +5,7 @@
 /**
  * Minimizes the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
  *
- * Time : O(n)
+ * Time : O(N)
  * Space: O(1)
  *
  * @param {!Array<number>} a

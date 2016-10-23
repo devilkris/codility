@@ -5,8 +5,8 @@
 /**
  * Computes the number of distinct values in an array.
  *
- * Time : O(n(log(n)))
- * Space: O(n)
+ * Time : O(N(log(N)))
+ * Space: O(N)
  *
  * @param {!Array<number>} a
  * @return {number}
