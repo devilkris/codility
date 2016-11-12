@@ -3,28 +3,31 @@
 def solution(a):
   a.sort()
 
-  if a[+0] >= 0: return +2 * a[+0] # All non-negative
-  if a[-1] <= 0: return -2 * a[-1] # All non-positive
+  if a[ 0] >= 0: return  2 * a[ 0] # all 0 or positive
+  if a[-1] <= 0: return -2 * a[-1] # all 0 or negative
 
-  lo, hi = len(a) - 1, 0
+  lo = 0
+  hi = len(a) - 1
   minimum = 2 * a[-1]
 
-  while hi <= lo:
-    temp = abs(a[hi] + a[lo])
-
+  while lo <= hi:
+    # check current best answer candidate
+    temp = abs(a[lo] + a[hi])
     if temp < minimum:
       minimum = temp
 
+    # best possible answer
     if minimum == 0:
       return 0
 
-    if abs(a[hi+1] + a[lo]) <= temp:
-      hi += 1
-    elif abs(a[hi] + a[lo-1]) <= temp:
-      lo -= 1
+    # caterpillar towards better answer
+    if abs(a[lo+1] + a[hi]) <= minimum:
+      lo += 1
+    elif abs(a[lo] + a[hi-1]) <= minimum:
+      hi -= 1
     else:
-      hi += 1
-      lo -= 1
+      lo += 1
+      hi -= 1
 
   return minimum
 
