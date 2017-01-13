@@ -3,7 +3,7 @@
 'use strict';
 
 /**
- * Determines whether an array is a permutation.
+ * Determines whether an array is a permutation of an arithmetic sequence.
  *
  * Time : O(N)
  * Space: O(N)
@@ -12,22 +12,27 @@
  * @return {number} 1 if true, 0 otherwise.
  */
 function solution(a) {
-  let n = a.length;
-  let map = {};
+  const n = a.length;
+
+  const map = {};
+
   let sum = 0;
   let min = 1e10;
   let max = 0;
 
   for (let i = 0; i < n; i++) {
-    let current = a[i];
+    const current = a[i];
     if (map[current]) {
       return 0;
     }
     map[current] = true;
+
     sum += current;
+
     if (current > max) {
       max = current;
     }
+
     if (current < min) {
       min = current;
     }

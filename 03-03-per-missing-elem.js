@@ -12,12 +12,12 @@
  * @return {number}
  */
 function solution(a) {
-  let n = a.length + 1;
+  const n = a.length + 1;
 
-  let expectedSum = (n / 2) * (n + 1); // n(n + 1) / 2
+  const expectedSum = (n / 2) * (n + 1); // n(n + 1) / 2
 
   let observedSum = 0;
-  a.forEach(d => {
+  a.forEach((d) => {
     observedSum += d;
   });
 

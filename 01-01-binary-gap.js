@@ -3,18 +3,19 @@
 'use strict';
 
 /**
- * Finds the length of the largest binary gap in the given integer.
+ * Finds the length of the largest binary gap (0s) in the given integer.
  *
  * @param {number} n
  * @return {number}
  */
 function solution(n) {
-  let b = toBinary(n);
+  const b = toBinary(n);
 
   let maxGapLength = 0;
   let gapLength = 0;
   let inGap = false;
-  b.forEach(bit => {
+
+  b.forEach((bit) => {
     if (bit === 1) {
       if (gapLength > maxGapLength) {
         maxGapLength = gapLength;
@@ -36,11 +37,10 @@ function solution(n) {
  * @return {!Array<number>}
  */
 function toBinary(n) {
-  let a = [];
+  const a = [];
 
-  let r = 0;
   while (n > 1) {
-    r = n % 2;
+    const r = n % 2;
     n >>= 1;
     a.unshift(r);
   }

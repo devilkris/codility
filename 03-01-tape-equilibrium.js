@@ -12,10 +12,13 @@
  * @return {number} Index that minimizes the absolute difference of partitions.
  */
 function solution(a) {
-  let n = a.length;
+  const n = a.length;
+
   if (n === 0) {
     return 0;
-  } else if (n === 1) {
+  }
+
+  if (n === 1) {
     return Math.abs(a[0]);
   }
 
@@ -30,7 +33,7 @@ function solution(a) {
   for (let i = 0; i < n - 1; i++) {
     sumL += a[i];
     sumR = sum - sumL;
-    let tmpMin = Math.abs(sumL - sumR);
+    const tmpMin = Math.abs(sumL - sumR);
     if (tmpMin < min) {
       min = tmpMin;
     }

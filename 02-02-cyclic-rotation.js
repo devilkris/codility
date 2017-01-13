@@ -13,12 +13,14 @@
  * @return {!Array<number>} Rotated array.
  */
 function solution(a, k) {
-  let n = a.length;
-  let b = Array(n);
-  k %= n;
+  const n = a.length;
+  const b = Array(n);
+
+  const K = k % n;
   for (let i = 0; i < n; i++) {
-    b[(i + k) % n] = a[i];
+    b[(i + K) % n] = a[i];
   }
+
   return b;
 }
 
